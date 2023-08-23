@@ -85,7 +85,7 @@ resource "azurerm_network_interface" "example" {
   
 # }
 
-# associating nsg to subet
+# associating nsg to subnet
 resource "azurerm_subnet_network_security_group_association" "subnet" {
     network_security_group_id = azurerm_network_security_group.example.id
     subnet_id = azurerm_subnet.example.id

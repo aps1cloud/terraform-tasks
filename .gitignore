@@ -1,0 +1,6 @@
+vms.tf
+multivm.tf
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.terraform

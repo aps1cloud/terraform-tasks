@@ -4,3 +4,5 @@ multivm.tf
 *.tfstate
 *.tfstate.backup
 *.terraform
+linu1.tf
+task-1/management.tf
